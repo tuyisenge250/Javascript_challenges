@@ -12,3 +12,4 @@ function squareDigits(num){
   const stringOfSquareNum = num.toString().split("").map((x) => x * x).join("")
   return parseInt(stringOfSquareNum);
 }
+console.log(squareDigits(10))
